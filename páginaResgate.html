@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto União Animal - Resgate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Resgate</h2>
+            <div class="conteudo">
+                <h3>Objetivos do Resgate</h3>
+                <p>Nossos resgates visam salvar animais de situações de risco e proporcionar-lhes um ambiente seguro.</p>
+                <h3>Processo de Resgate</h3>
+                <p>Recebemos denúncias, enviamos equipes ao local, resgatamos os animais e fornecemos cuidados médicos imediatos.</p>
+                <h3>Como Ajudar</h3>
+                <p>Você pode se voluntariar, fazer doações ou contribuir com equipamentos necessários para os resgates.</p>
+                <h3>Recursos Necessários</h3>
+                <p>Estamos sempre em busca de doações de suprimentos médicos, veículos e outros recursos essenciais.</p>
+            </div>
+
+            <div class="denuncia-form">
+                <h3>Reporte um Animal Necessitando de Resgate</h3>
+                <form action="submeter_denuncia.php" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" required>
+
+                    <label for="fone">Telefone:</label>
+                    <input type="tel" required>
+
+                    <label for="localizacao">Localização do Animal:</label>
+                    <input type="text" required>
+
+                    <label for="descricao">Descrição do Caso:</label>
+                    <textarea rows="4" required></textarea>
+
+                    <button type="submit">Enviar Relatório</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
